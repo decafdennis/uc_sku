@@ -1,0 +1,12 @@
+<?php
+// Developed by Dennis Stevense, naquah.net
+
+/**
+ * Implementation of hook_cart_item_description().
+ */
+function uc_sku_cart_item_description($item) {
+  if ($item->model) {
+    $output = "<div class=\"uc-sku\">" . t('Item Number') . ': ' . check_plain($item->model) . "</div>";
+  }
+  return $output;
+}

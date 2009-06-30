@@ -1,0 +1,8 @@
+; Developed by Dennis Stevense, naquah.net
+name = SKU
+description = Displays the product's SKU in the cart and checkout process.
+dependencies[] = uc_cart
+package = Ubercart - custom
+
+core = 6.x
+version = 6.x-1.x-dev
