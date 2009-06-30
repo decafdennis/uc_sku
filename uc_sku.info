@@ -5,4 +5,4 @@ dependencies[] = uc_cart
 package = Ubercart - custom
 
 core = 6.x
-version = 6.x-1.x-dev
+version = 6.x-1.0-beta1
